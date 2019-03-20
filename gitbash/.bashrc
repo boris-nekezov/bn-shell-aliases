@@ -1,0 +1,10 @@
+alias vue='winpty vue.cmd'
+alias ll='ls -la'
+
+alias g='git'
+alias gs='git status'
+alias gaa='git add -A'
+alias gc='git commit -m "Update application"'
+alias gd='git diff'
+alias gp='git pull'
+alias gpsh='git push'
