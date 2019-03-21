@@ -1,5 +1,7 @@
 alias vue='winpty vue.cmd'
 alias ll='ls -la'
+alias ..='cd ..'
+alias ~='cd ~'
 
 alias g='git'
 alias gs='git status'
