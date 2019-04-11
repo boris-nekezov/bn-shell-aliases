@@ -1,7 +1,6 @@
 # terminal
 alias ll='ls -la'
 alias ..='cd ..'
-alias ~='cd ~'
 
 # git
 alias g='git'
