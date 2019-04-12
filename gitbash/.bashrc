@@ -15,6 +15,8 @@ alias gp='git push'
 alias gpom='git push origin master'
 alias gpod='git push origin develop'
 
+alias gacp='gaa && gcc && gp'
+
 alias gpll='git pull'
 alias gpllom='git pull origin master'
 alias gpllod='git pull origin develop'
@@ -26,12 +28,12 @@ alias gchm='git checkout master'
 alias gchd='git checkout develop'
 alias gchb='git checkout -b'
 
-alias gr="git reset"
+alias gr='git reset'
 
-alias grm ="git rm"
-alias grmr ="git rm -r"
-alias grmf ="git rm -f"
-alias grmrf ="git rm -rf"
+alias grm='git rm'
+alias grmr='git rm -r'
+alias grmf='git rm -f'
+alias grmrf='git rm -rf'
 
 alias gst='git stash'
 alias gsta='git stash apply'
