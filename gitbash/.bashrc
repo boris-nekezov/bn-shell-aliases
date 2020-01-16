@@ -12,6 +12,7 @@ alias gcc='git commit -m "Update application"'
 alias gd='git diff'
 
 alias gp='git push'
+alias gpo='git push origin'
 alias gpom='git push origin master'
 alias gpod='git push origin develop'
 
