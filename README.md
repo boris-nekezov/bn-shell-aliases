@@ -1,167 +1,92 @@
-# dotfiles
-Containing dotfiles with aliases and shorcuts
+# BN Shell Aliases
 
-## List of aliases for git bash
+- Write less that usual 
 
-```sh
-### ========================================================================================== 
-## =terminal 
-# ==========================================================================================
+- Improve productivity by using these aliases
 
-alias ll='ls -la'
-alias ..='cd ..'
+- Most commands are **`Git`** related
 
-### ========================================================================================== 
-## =git GIT COMMANDS
-# ==========================================================================================
+- Successfully tested on [**GitBash**](https://git-scm.com/downloads)
 
-# git 
-alias g='git'
+## Usage for Windows 10 users 
 
-### ========================================================================================== 
-## =various
-# ==========================================================================================
+- Just copy/replace the **`.bashrc`** file here: /c/Users/**`$YOUR_USER_NAME`**
 
-# git branch
-alias gb='g branch'
+- For other OS and terminals you can improvise
 
-# git diff
-alias gd='g diff'
+## List of aliases:
 
-# git status
-alias gs='g status' 
+### Terminal commands
 
-# git reset
-alias gr='g reset'
+- **`ll`** => ls -la
+- **`..`** => cd ..
 
-### ========================================================================================== 
-## =add
-# ==========================================================================================
+### Git commands
 
-# git add
-alias ga='g add'
+- #### Various
 
-# git add -A
-alias gaa='ga -A'
+  - **`g`** => git 
+  - **`gb`** => git branch
+  - **`gd`** => git diff
+  - **`gs`** => git status
 
-### ========================================================================================== 
-## =commit
-# ==========================================================================================
+- #### Add
 
-# git commit -m
-alias gc='g commit -m'
+  - **`ga`** => git add
+  - **`gaa`** => git add all 
 
-# git commit -m "Update application"
-alias gcc='g commit -m "Update application"'
+- #### Commit
 
-### ========================================================================================== 
-## =push
-# ==========================================================================================
+  - **`gc`** => git commit -m
+  - **`gcc`** => git commit -m "Update application"
 
-# git push
-alias gp='g push'
+- #### Push 
 
-# git push origin
-alias gpo='gp origin'
+  - **`gp`** => git push
+  - **`gpo`** => git push origin
+  - **`gpom`** => git push origin master
+  - **`gpod`** => git push origin develop
+  
+- #### Pull
 
-# git push origin master
-alias gpom='gpo master'
+  - **`gpl`** => git pull 
+  - **`gplom`** => git pull origin master 
+  - **`gplod`** => git pull origin develop 
 
-# git push origin develop 
-alias gpod='gpo develop'
+- #### Checkout
 
-### ========================================================================================== 
-## =pull
-# ==========================================================================================
+  - **`gch`** => git checkout 
+  - **`gchm`** => git checkout master 
+  - **`gchd`** => git checkout develop 
+  - **`gchb`** => git checkout -b
 
-# git pull
-alias gpl='g pull'
+- #### Merge
 
-# git pull origin master
-alias gplom='gpl origin master'
+  - **`gm`** => git merge  
+  - **`gmd`** => git merge develop
 
-# git pull origin develop
-alias gplod='gpl origin develop'
+- #### `Git` Remove
+  
+  - **`grm`** => git rm 
+  - **`grmr`** => git rm -r 
+  - **`grmf`** => git rm -f 
+  - **`grmrf`** => git rm -rf
 
-### ========================================================================================== 
-## =checkout
-# ==========================================================================================
+- #### Stash
 
-# git checkout
-alias gch='g checkout'
+  - **`gst`** => git stash 
+  - **`gsta`** => git stash apply
 
-# git checkout master
-alias gchm='gch master'
+- #### Stash
 
-# git checkout develop
-alias gchd='gch develop'
+  - **`gl`** => git log 
+  - **`glol`** => git log --oneline 
 
-# git checkout -b
-alias gchb='gch -b'
+- #### Mixes of commands that are used often
 
-### ========================================================================================== 
-## =merge
-# ==========================================================================================
+  - **`gacp`** => git add -A && git commit -m "Update application" && git push 
+  - **`gcmdpm`** => git checkout master && git merge develop && git push origin master 
 
-# git merge 
-alias gm='git merge'
+### Others 
 
-# git merge develop
-alias gmd='gm develop'
-
-### ========================================================================================== 
-## =rm
-# ==========================================================================================
-
-# git rm
-alias grm='g rm'
-
-# git rm -r
-alias grmr='grm -r'
-
-# git rm -f
-alias grmf='grm -f'
-
-# git rm -rf
-alias grmrf='g rm -rf'
-
-### ========================================================================================== 
-## =stash
-# ==========================================================================================
-
-# git stash
-alias gst='g stash'
-
-# git stash apply
-alias gsta='gst apply'
-
-### ========================================================================================== 
-## =log
-# ==========================================================================================
-
-# git log
-alias gl='g log'
-
-# git log --oneline
-alias glol='g log --oneline'
-
-### ========================================================================================== 
-## =mixes Mix of commands that are used often
-# ==========================================================================================
-
-# git add -A && git commit -m "Update application" && git push
-alias gacp='gaa && gcc && gp'
-
-# git checkout master && git merge develop && git push origin master
-alias gcmdpm='gchm && gmd && gpom'
-
-### ========================================================================================== 
-## =others
-# ==========================================================================================
-
-# vue
-alias vue='winpty vue.cmd'
-```
-
-
-
+  - **`vue`** => winpty vue.cmd

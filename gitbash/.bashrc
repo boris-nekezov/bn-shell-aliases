@@ -1,3 +1,18 @@
+# BN Shell Aliases v1.0
+# https://github.com/boris-nekezov/bn-shell-aliases
+#
+# Author and Copyright Boris Nekezov
+# Github profile
+# https://github.com/boris-nekezov
+# 
+# Email
+# boris.nekezov@gmail.com  
+# 
+# Released under the MIT license
+# https://jquery.org/license
+#
+# Date: 2020-10-28
+
 ### ========================================================================================== 
 ## =terminal 
 # ==========================================================================================
@@ -140,7 +155,7 @@ alias gl='g log'
 alias glol='g log --oneline'
 
 ### ========================================================================================== 
-## =mixes Mix of commands that are used often
+## =mixes Mixes of commands that are used often
 # ==========================================================================================
 
 # git add -A && git commit -m "Update application" && git push
