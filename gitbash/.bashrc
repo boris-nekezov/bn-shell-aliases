@@ -9,7 +9,7 @@
 # boris.nekezov@gmail.com  
 # 
 # Released under the MIT license
-# https://jquery.org/license
+# https://github.com/boris-nekezov/bn-shell-aliases/blob/master/LICENSE
 #
 # Date: 2020-10-28
 
